@@ -1,5 +1,7 @@
 -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
+--made by turdle#2121 feel free to friend me on discord
+
 -- Instances:
 
 local Converted = {
@@ -456,16 +458,30 @@ local function JTSWBES_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 		end
 		return req(obj)
 	end
-
+	
+	local change = false
+	
+	if game.StarterPlayer.CharacterUseJumpPower == false then
+		script.Parent.Text = "7.2"
+		script.Parent.Parent.Text = "Jump Height"
+		change = true
+	end
+	
 	local jump = script.Parent
 	repeat wait() until game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
 	local hum = game.Players.LocalPlayer.Character.Humanoid
 
 	while task.wait(0.1) do
-		if jump.Text == "" then
+		if jump.Text == "" and change == false then
 			hum.JumpPower = 50
 		else
 			hum.JumpPower = jump.Text
+		end
+		
+		if jump.Text == "" and change == true then
+			hum.JumpHeight = 7.2
+		else
+			hum.JumpHeight = jump.Text
 		end
 	end
 end
@@ -631,6 +647,8 @@ local function AZIREL_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.S
 		end
 	end)
 end
+
+
 
 coroutine.wrap(VXHB_fake_script)()
 coroutine.wrap(BHLOG_fake_script)()
