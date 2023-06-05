@@ -1,7 +1,5 @@
 -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
---gui and scripts made by turdle#2121 feel free to talk to me
-
 -- Instances:
 
 local Converted = {
@@ -81,7 +79,6 @@ local Converted = {
 Converted["_ScreenGui"].ResetOnSpawn = false
 Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["_ScreenGui"].Parent = game.Players.LocalPlayer.PlayerGui
-Converted["_ScreenGui"].Name = "gui made by turdle#2121"
 
 Converted["_Frame"].Active = true
 Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(58.00000414252281, 58.00000414252281, 58.00000414252281)
@@ -111,6 +108,7 @@ Converted["_UITextSizeConstraint"].Parent = Converted["_TextLabel"]
 Converted["_UIAspectRatioConstraint"].AspectRatio = 14.36682415008545
 Converted["_UIAspectRatioConstraint"].Parent = Converted["_TextLabel"]
 
+Converted["_ScrollingFrame"].CanvasPosition = Vector2.new(0, 189.45126342773438)
 Converted["_ScrollingFrame"].CanvasSize = UDim2.new(0, 0, 1.39999998, 0)
 Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ScrollingFrame"].ScrollBarThickness = 8
@@ -220,7 +218,7 @@ Converted["_TextLabel3"].BackgroundTransparency = 1
 Converted["_TextLabel3"].Size = UDim2.new(0.850000024, 0, 1, 0)
 Converted["_TextLabel3"].Parent = Converted["_CtrlClick"]
 
-Converted["_TextButton"].Font = Enum.Font.Unknown
+Converted["_TextButton"].Font = Enum.Font.FredokaOne
 Converted["_TextButton"].Text = "OFF"
 Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextButton"].TextScaled = true
@@ -268,7 +266,7 @@ Converted["_TextLabel4"].BackgroundTransparency = 1
 Converted["_TextLabel4"].Size = UDim2.new(0.850000024, 0, 1, 0)
 Converted["_TextLabel4"].Parent = Converted["_Fullbright"]
 
-Converted["_TextButton1"].Font = Enum.Font.Unknown
+Converted["_TextButton1"].Font = Enum.Font.FredokaOne
 Converted["_TextButton1"].Text = "OFF"
 Converted["_TextButton1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextButton1"].TextScaled = true
@@ -319,7 +317,7 @@ Converted["_TextLabel5"].BackgroundTransparency = 1
 Converted["_TextLabel5"].Size = UDim2.new(0.850000024, 0, 1, 0)
 Converted["_TextLabel5"].Parent = Converted["_Noclip"]
 
-Converted["_TextButton2"].Font = Enum.Font.Unknown
+Converted["_TextButton2"].Font = Enum.Font.FredokaOne
 Converted["_TextButton2"].Text = "OFF"
 Converted["_TextButton2"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextButton2"].TextScaled = true
@@ -367,7 +365,7 @@ Converted["_TextLabel6"].BackgroundTransparency = 1
 Converted["_TextLabel6"].Size = UDim2.new(0.850000024, 0, 1, 0)
 Converted["_TextLabel6"].Parent = Converted["_JetPack"]
 
-Converted["_TextButton3"].Font = Enum.Font.Unknown
+Converted["_TextButton3"].Font = Enum.Font.FredokaOne
 Converted["_TextButton3"].Text = "OFF"
 Converted["_TextButton3"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextButton3"].TextScaled = true
@@ -406,7 +404,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function LRMERNZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.LocalScript
+local function VXHB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Frame"]
@@ -421,7 +419,7 @@ local function LRMERNZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 
 	script.Parent.Draggable = true
 end
-local function XBUZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.WalkSpeed.TextLabel.TextBox.LocalScript
+local function BHLOG_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.WalkSpeed.TextLabel.TextBox.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextBox"]
@@ -446,7 +444,7 @@ local function XBUZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Scr
 		end
 	end
 end
-local function FWEDO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.JumpPower.TextLabel.TextBox.LocalScript
+local function JTSWBES_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.JumpPower.TextLabel.TextBox.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextBox1"]
@@ -471,7 +469,7 @@ local function FWEDO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Sc
 		end
 	end
 end
-local function YVFYGI_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.CtrlClick.TextLabel.TextButton.LocalScript
+local function CVBLHPY_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.CtrlClick.TextLabel.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton"]
@@ -519,7 +517,7 @@ local function YVFYGI_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.S
 		end
 	end)
 end
-local function TWWTJCG_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.Fullbright.TextLabel.TextButton.LocalScript
+local function WIJXW_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.Fullbright.TextLabel.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton1"]
@@ -546,7 +544,7 @@ local function TWWTJCG_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 		end
 	end)
 end
-local function WDQSJMB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.Noclip.TextLabel.TextButton.LocalScript
+local function AXUCTQV_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.Noclip.TextLabel.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton2"]
@@ -601,7 +599,7 @@ local function WDQSJMB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 		end
 	end)
 end
-local function JKFVPOO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.JetPack.TextLabel.TextButton.LocalScript
+local function AZIREL_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ScrollingFrame.JetPack.TextLabel.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton3"]
@@ -627,14 +625,17 @@ local function JKFVPOO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 					game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
 				end
 			end)
+		elseif onoff == "ON" then
+			script.Parent.Text = "OFF"
+			onoff = "OFF"
 		end
 	end)
 end
 
-coroutine.wrap(LRMERNZ_fake_script)()
-coroutine.wrap(XBUZ_fake_script)()
-coroutine.wrap(FWEDO_fake_script)()
-coroutine.wrap(YVFYGI_fake_script)()
-coroutine.wrap(TWWTJCG_fake_script)()
-coroutine.wrap(WDQSJMB_fake_script)()
-coroutine.wrap(JKFVPOO_fake_script)()
+coroutine.wrap(VXHB_fake_script)()
+coroutine.wrap(BHLOG_fake_script)()
+coroutine.wrap(JTSWBES_fake_script)()
+coroutine.wrap(CVBLHPY_fake_script)()
+coroutine.wrap(WIJXW_fake_script)()
+coroutine.wrap(AXUCTQV_fake_script)()
+coroutine.wrap(AZIREL_fake_script)()
